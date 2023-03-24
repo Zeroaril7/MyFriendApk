@@ -71,13 +71,14 @@
         <EditText
             android:id="@+id/edtAddres"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="120dp"
             android:layout_marginTop="16dp"
             android:hint="Alamat"
             android:textColorHint="#CCCCCC"
             android:textColor="@color/black"
             android:inputType="textMultiLine"
             android:imeOptions="actionDone"
+            android:gravity="top"
             />
 
         <Button
